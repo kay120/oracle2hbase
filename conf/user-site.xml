@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<property>
+		<name>oracle.table.name</name>
+		<value>dsm_file_log</value>
+	</property>
+	<property>
+		<name>hbase.table.name</name>
+		<value>dms_hbase</value>
+	</property>
+	<property>
+		<name>oracle.table.col.num</name>
+		<value>6</value>
+	</property>
+	<property>
+		<name>oracle.table.rowkey</name>
+		<value>USERUUID,TYPE,ID</value>
+	</property>
+	<property>
+		<name>oracle.table.cols</name>
+		<value>USERUUID,TYPE,OPTIME,OPCOMENT,ID,CLIENT</value>
+	</property>
+	<property>
+		<name>data.seperator</name>
+		<value>\t</value>
+	</property>  
+	<property>
+		<name>COLUMN_FAMILY_1</name>
+		<value>info</value>
+	</property>
+	<property>
+		<name>username.client.kerberos.principal</name>
+		<value>kay.com</value>
+	</property> 
+	<property>
+		<name>username.client.keytab.file</name>
+		<value>/usr/local/hadoop/test/mrhbase/newmr.jar2</value>
+	</property> 
+</configuration>
